@@ -7,7 +7,7 @@ public class CalculatorView {
         System.out.println("Instructions:");
         System.out.println("Enter operations in the format: [number] [operation] [number] (for binary operations)");
         System.out.println("Or [number] [operation] (for unary operations like squareRoot)");
-        System.out.println("Supported operations: +, -, *, /, % (modulus), sqrt (squareRoot), abs (absolute), ln (natural log), ! (factorial)");
+        System.out.println("Supported operations: +, -, *, /, % (modulus), ^ (exponent), sqrt (squareRoot), abs (absolute), ln (natural log), ! (factorial)");
     }
 
     public void displayResult(double result) {
